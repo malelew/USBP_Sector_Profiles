@@ -11,7 +11,7 @@ csv_files = [f for f in listdir(curr_dir) if f.endswith(csv_suffix)]
 
 for sheet in csv_files:
     curr_df = pd.read_csv(sheet, names=col_names)
-    curr_df = curr_df.dropna(subset=[col_names[0], col_names[1]])
+    curr_df = curr_df.dropna(subset=[col_names[:1])
     curr_df.to_csv(psheets_dir + sheet, index=False)
 
 print "done"
