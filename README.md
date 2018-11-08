@@ -10,7 +10,7 @@ The current workflow scrapes the first table in each fiscal year's PDF and speci
 
 ![chart1](https://github.com/malelew/USBP_Sector_Profiles/raw/master/charts/agents_southern_border.png "2017 Agent Staffing")
 
-![chart2](https://github.com/malelew/USBP_Sector_Profiles/raw/master/charts/agents_southern_border.png "2017 Agent Staffing")
+![chart2](https://github.com/malelew/USBP_Sector_Profiles/raw/master/charts/agent_staffing_by_sector_line.png "2017 Agent Staffing")
 
 ![chart3](https://github.com/malelew/USBP_Sector_Profiles/raw/master/charts/apprehensions_southern_border.png "2017 Apprehensions")
 
