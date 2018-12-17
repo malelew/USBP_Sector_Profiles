@@ -15,3 +15,10 @@ The current workflow scrapes the first table in each fiscal year's PDF and speci
 ![chart3](https://github.com/malelew/USBP_Sector_Profiles/raw/master/charts/apprehensions_southern_border.png "2017 Apprehensions")
 
 ![chart4](https://github.com/malelew/USBP_Sector_Profiles/raw/master/charts/apprhensions_by_sector_line.png "2017 Apprehensions") 
+
+Workflow for replicating the tasks:
+1. run camelot_scrape.py in sector_profiles directory
+
+2. run cleaning.py in camelot_scrape directory
+
+3. run cleaning_analysis.py in sheets/camelot_scrape directory
